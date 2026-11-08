@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {"source":"/:path*","has":[{"type":"host","value":"(www\\.)?howtobuyadomainsomeoneowns\\.com"}],"destination":"/howtobuyadomainsomeoneowns.com.html"},
+    {"source":"/:path*","has":[{"type":"host","value":"(www\\.)?howdoibuyadomain\\.com"}],"destination":"/howdoibuyadomain.com.html"},
+    {"source":"/:path*","has":[{"type":"host","value":"(www\\.)?buyadomainsomeoneowns\\.com"}],"destination":"/buyadomainsomeoneowns.com.html"},
+    {"source":"/:path*","has":[{"type":"host","value":"(www\\.)?domainacquisitionagency\\.com"}],"destination":"/domainacquisitionagency.com.html"},
+    {"source":"/:path*","has":[{"type":"host","value":"(www\\.)?bestwaytobuyadomain\\.com"}],"destination":"/bestwaytobuyadomain.com.html"}
+  ]
+}
