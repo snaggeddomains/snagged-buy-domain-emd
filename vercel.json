@@ -1,5 +1,184 @@
 {
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "content-type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "content-type",
+          "value": "application/xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "content-type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    }
+  ],
   "rewrites": [
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?howtobuyadomainsomeoneowns\\.com"
+        }
+      ],
+      "destination": "/_data/howtobuyadomainsomeoneowns.com.robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?howtobuyadomainsomeoneowns\\.com"
+        }
+      ],
+      "destination": "/_data/howtobuyadomainsomeoneowns.com.sitemap.xml"
+    },
+    {
+      "source": "/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?howtobuyadomainsomeoneowns\\.com"
+        }
+      ],
+      "destination": "/_data/howtobuyadomainsomeoneowns.com.llms.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?howdoibuyadomain\\.com"
+        }
+      ],
+      "destination": "/_data/howdoibuyadomain.com.robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?howdoibuyadomain\\.com"
+        }
+      ],
+      "destination": "/_data/howdoibuyadomain.com.sitemap.xml"
+    },
+    {
+      "source": "/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?howdoibuyadomain\\.com"
+        }
+      ],
+      "destination": "/_data/howdoibuyadomain.com.llms.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?buyadomainsomeoneowns\\.com"
+        }
+      ],
+      "destination": "/_data/buyadomainsomeoneowns.com.robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?buyadomainsomeoneowns\\.com"
+        }
+      ],
+      "destination": "/_data/buyadomainsomeoneowns.com.sitemap.xml"
+    },
+    {
+      "source": "/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?buyadomainsomeoneowns\\.com"
+        }
+      ],
+      "destination": "/_data/buyadomainsomeoneowns.com.llms.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?domainacquisitionagency\\.com"
+        }
+      ],
+      "destination": "/_data/domainacquisitionagency.com.robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?domainacquisitionagency\\.com"
+        }
+      ],
+      "destination": "/_data/domainacquisitionagency.com.sitemap.xml"
+    },
+    {
+      "source": "/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?domainacquisitionagency\\.com"
+        }
+      ],
+      "destination": "/_data/domainacquisitionagency.com.llms.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?bestwaytobuyadomain\\.com"
+        }
+      ],
+      "destination": "/_data/bestwaytobuyadomain.com.robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?bestwaytobuyadomain\\.com"
+        }
+      ],
+      "destination": "/_data/bestwaytobuyadomain.com.sitemap.xml"
+    },
+    {
+      "source": "/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?bestwaytobuyadomain\\.com"
+        }
+      ],
+      "destination": "/_data/bestwaytobuyadomain.com.llms.txt"
+    },
     {
       "source": "/(.*)",
       "has": [
